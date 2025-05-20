@@ -1,0 +1,8 @@
+mkdir folder
+cd folder
+python -m venw myenv
+cd myenv\Scripts\activate
+pip install requests
+pip list
+deactivate
+rmdir /S /Q folder
